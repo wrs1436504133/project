@@ -32,6 +32,7 @@ public class PlaantControlleer {
 		model.addAttribute("list", findAllList);
 		model.addAttribute("page", pageInfo);
 		model.addAttribute("map", map);
+		model.addAttribute("map", map);
 		return "list";
 	}
 	
