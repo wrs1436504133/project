@@ -31,7 +31,6 @@ public class PlaantControlleer {
 		PageInfo<Map<String,Object>> pageInfo = new PageInfo<Map<String,Object>>(findAllList);
 		model.addAttribute("list", findAllList);
 		model.addAttribute("page", pageInfo);
-		model.addAttribute("page", pageInfo);
 		model.addAttribute("map", map);
 		return "list";
 	}
